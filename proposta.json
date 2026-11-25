@@ -1,0 +1,314 @@
+{
+  "slug": "renata-fontany",
+  "negocio": {
+    "nome": "Clínica Renata Fontany",
+    "whatsapp": "5531985245318",
+    "telefone": "(31) 98524-5318",
+    "funcionamento": {
+      "seg": "09:00-21:00",
+      "ter": "09:00-21:00",
+      "qua": "09:00-21:00",
+      "qui": "09:00-21:00",
+      "sex": "09:00-21:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Cidade Nova · Belo Horizonte",
+        "endereco": "Rua Tabelião Ferreira de Carvalho, 960 – Cidade Nova, Belo Horizonte – MG, 31170-180",
+        "telefone": "(31) 98524-5318",
+        "horario": "Segunda a sexta, das 9h às 21h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#874F7C",
+    "brand2": "#673A5E",
+    "ink": "#2B1D28",
+    "bg": "#FBF6F2",
+    "pulse": "#F2A867",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Limpeza de pele",
+            "href": "#limpeza"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética facial e corporal · Cidade Nova, BH",
+        "h1": "Sua pele cuidada por quem já fez 25 mil limpezas",
+        "lead": "Há 30 anos a Renata Fontany atende na Cidade Nova: limpeza de pele, ultrassom microfocado, depilação a laser e tratamentos corporais. Aberto até as 21h, para caber depois do trabalho.",
+        "cta": "Marcar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/renata-retrato.jpg",
+        "imagemAlt": "Renata Fontany, de camisa listrada e calça branca, na clínica",
+        "tarja": [
+          "4,9 no Google, 95 avaliações",
+          "30 anos na Cidade Nova",
+          "Ultrassom microfocado",
+          "Segunda a sexta até as 21h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Limpeza de pele",
+          "Ultrassom microfocado",
+          "Depilação a laser",
+          "Radiofrequência",
+          "Microagulhamento",
+          "LED",
+          "Ozonioterapia",
+          "Massagem"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "data": {
+        "eyebrow": "A clínica",
+        "citacao": "Indicar o que a pele precisa, e só isso.",
+        "autor": "Renata Fontany",
+        "texto": [
+          "Há 30 anos a clínica atende na Rua Tabelião Ferreira de Carvalho, na Cidade Nova. Quem volta é recebido pelo nome, pela recepção e pela própria Renata.",
+          "Uma avaliação no Google resume o jeito da casa: atendimento bom e ninguém tentando empurrar procedimento. A Renata olha a pele, explica o que faz sentido e combina o próximo passo."
+        ],
+        "imagem": "midia/entrevista.jpg",
+        "imagemAlt": "Renata Fontany sendo entrevistada num estúdio, com câmeras e o logotipo da clínica na tela ao fundo"
+      }
+    },
+    {
+      "custom": "blocos/limpezas.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a clínica faz",
+        "lead": "Tudo começa numa avaliação com a Renata. A partir dela, o tratamento e a frequência são combinados com você.",
+        "itens": [
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização, extração e máscara calmante, com a orientação do que fazer em casa até a próxima.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Ultrassom microfocado",
+            "descricao": "Aquece as camadas profundas da pele para estimular colágeno e tratar a flacidez do rosto, sem corte e sem afastamento da rotina.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Depilação a laser",
+            "descricao": "Sessões espaçadas para reduzir os pelos de forma progressiva, com o intervalo ajustado à sua pele.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Radiofrequência e microagulhamento",
+            "descricao": "Para firmeza, textura e marcas: a Renata indica um, outro ou a combinação depois de avaliar.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "LED e ozonioterapia",
+            "descricao": "Recursos de apoio para acalmar, cicatrizar e tratar a pele com acne ou sensível.",
+            "icone": "sol"
+          },
+          {
+            "nome": "Massagem e corporal",
+            "descricao": "Massagem relaxante e cuidados corporais, para quem quer sair mais leve no fim do dia.",
+            "icone": "spa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "data": {
+        "eyebrow": "Marcar é simples",
+        "titulo": "Uma mensagem e o horário está separado",
+        "lead": "A clínica atende de segunda a sexta até as 21h. Dá para marcar a limpeza de pele para depois do expediente.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Clínica Renata Fontany",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Queria marcar uma limpeza de pele. Vocês atendem à noite?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Atendemos sim, de segunda a sexta até as 21h 😊"
+          },
+          {
+            "de": "paciente",
+            "texto": "Quinta depois das 19h dá?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Quinta às 19h30 está livre com a Renata. Posso confirmar no seu nome?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Mensagem no WhatsApp",
+            "texto": "Você conta o que quer tratar e escolhe o horário.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação com a Renata",
+            "texto": "Ela olha a pele e explica o que faz sentido para você, sem pacote empurrado.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Tratamento",
+            "texto": "Na mesma visita ou no dia combinado, com orientação para casa.",
+            "icone": "spa"
+          },
+          {
+            "titulo": "Retorno",
+            "texto": "Quando o tratamento pede outra sessão, a data já sai combinada com você.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "data": {
+        "titulo": "4,9 no Google, com 95 avaliações",
+        "itens": [
+          {
+            "texto": "Tratamentos eficazes e preço justo. Renata uma gracinha, super atenciosa.",
+            "autor": "Samara S.",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Muito antigo no bairro, não ficam tentando empurrar um tanto de coisa nos clientes, e o atendimento é muito bom.",
+            "autor": "Mary D.",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Profissionais qualificados e super sensíveis às suas metas.",
+            "autor": "Giselle N.",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "reels",
+      "data": {
+        "titulo": "Do Instagram da clínica",
+        "lead": "A Renata explica os tratamentos no perfil, com 33 mil pessoas acompanhando.",
+        "perfil": {
+          "texto": "@renatafontany",
+          "href": "https://www.instagram.com/renatafontany/"
+        },
+        "itens": [
+          {
+            "imagem": "midia/post-06.jpg",
+            "legenda": "O ultrassom microfocado de perto",
+            "link": "https://www.instagram.com/renatafontany/reel/DgFwqI1B1qg/"
+          },
+          {
+            "imagem": "midia/post-01.jpg",
+            "legenda": "O que tem por trás de um procedimento",
+            "link": "https://www.instagram.com/renatafontany/p/DVwPTfslTy5/"
+          },
+          {
+            "imagem": "midia/post-10.jpg",
+            "legenda": "Massagem no fim do dia",
+            "link": "https://www.instagram.com/renatafontany/reel/DfkCw6mBeSt/"
+          },
+          {
+            "imagem": "midia/post-09.jpg",
+            "legenda": "Vim por indicação",
+            "link": "https://www.instagram.com/renatafontany/p/Df7FDVih1-C/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Vocês atendem à noite?",
+            "r": "Sim. A clínica abre de segunda a sexta, das 9h às 21h. Sábado e domingo fecha."
+          },
+          {
+            "p": "Preciso de avaliação antes do tratamento?",
+            "r": "Sim. A Renata olha a pele antes de indicar qualquer aparelho, e explica o que faz sentido para o seu caso."
+          },
+          {
+            "p": "O ultrassom microfocado tira da rotina?",
+            "r": "Em geral não: é sem corte e dá para voltar às atividades no mesmo dia. Na avaliação a Renata explica o que esperar no seu caso."
+          },
+          {
+            "p": "Onde fica a clínica?",
+            "r": "Na Rua Tabelião Ferreira de Carvalho, 960, na Cidade Nova, em Belo Horizonte. O estacionamento tem acesso para cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "vivo",
+      "data": {
+        "h2": "Sua próxima limpeza de pele começa com uma mensagem",
+        "lead": "Diga o que quer tratar e o melhor horário. A recepção responde e separa o horário com a Renata.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "data": {}
+    }
+  ]
+}

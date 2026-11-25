@@ -1,0 +1,44 @@
+<section class="blk-lp" id="limpeza">
+  <div class="wrap blk-lp__grade">
+    <div class="blk-lp__texto">
+      <p class="blk-lp__eyebrow" data-reveal>A especialidade da casa</p>
+      <p class="blk-lp__num" data-reveal><span data-count="25000">25.000</span><small>limpezas de pele</small></p>
+      <h2 class="blk-lp__titulo" data-reveal>Em 30 anos de clínica na Cidade Nova.</h2>
+      <p class="blk-lp__lead" data-acende>A limpeza de pele é o tratamento que a Renata mais fez na vida. É por ela que muita cliente chega, e é nela que a Renata conhece a pele antes de indicar qualquer aparelho.</p>
+      <ol class="blk-lp__etapas">
+        <li data-reveal style="--d:0ms"><span><!--icone:gota--></span><div><b>Higienização</b><p>Tira a maquiagem e a oleosidade do dia.</p></div></li>
+        <li data-reveal style="--d:80ms"><span><!--icone:pele--></span><div><b>Esfoliação e preparo</b><p>Afina a camada de cima e amolece os poros.</p></div></li>
+        <li data-reveal style="--d:160ms"><span><!--icone:mao--></span><div><b>Extração</b><p>Cravos e impurezas retirados com calma, sem deixar marca.</p></div></li>
+        <li data-reveal style="--d:240ms"><span><!--icone:folha--></span><div><b>Máscara calmante</b><p>Acalma a vermelhidão antes de você ir embora.</p></div></li>
+        <li data-reveal style="--d:320ms"><span><!--icone:sol--></span><div><b>Proteção e orientação</b><p>Filtro solar e o que fazer em casa até a próxima.</p></div></li>
+      </ol>
+    </div>
+    <figure class="blk-lp__foto" data-reveal>
+      <!--foto:midia/post-02.jpg|Renata Fontany segurando um pote de creme, ao lado do texto mais de 25 mil limpezas de pele feitas-->
+      <figcaption>"Fiz uma limpeza de pele e adorei: a pele ficou limpa e sem marcas." <span>Ana Cristina, no Google</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+.blk-lp{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 12%,var(--bg))}
+.blk-lp__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-lp__num{margin:0;font-family:var(--f-display);font-size:clamp(4rem,17vw,8.5rem);line-height:.9;color:var(--brand);font-style:italic}
+.blk-lp__num small{display:block;margin-top:.5rem;font-family:var(--f-body);font-style:normal;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:color-mix(in srgb,var(--ink) 70%,transparent)}
+.blk-lp__titulo{margin:var(--sp-4) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-lp__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 78%,transparent);max-width:38rem}
+.blk-lp__etapas{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:var(--sp-3);counter-reset:e}
+.blk-lp__etapas li{display:grid;grid-template-columns:2.6rem 1fr;gap:.9rem;align-items:start}
+.blk-lp__etapas span{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;background:var(--bg);color:var(--brand);box-shadow:0 0 0 1px color-mix(in srgb,var(--brand) 22%,transparent)}
+.blk-lp__etapas span svg{width:1.3rem;height:1.3rem}
+.blk-lp__etapas b{display:block;font-family:var(--f-display);font-size:1.3rem;font-weight:600;color:var(--ink)}
+.blk-lp__etapas p{margin:.15rem 0 0;color:color-mix(in srgb,var(--ink) 70%,transparent)}
+.blk-lp__foto{margin:var(--sp-5) 0 0}
+.blk-lp__foto img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--radius)}
+.blk-lp__foto figcaption{margin-top:var(--sp-2);font-family:var(--f-display);font-size:1.25rem;line-height:1.4;color:var(--ink)}
+.blk-lp__foto figcaption span{display:block;margin-top:.3rem;font-family:var(--f-body);font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 60%,transparent)}
+@media (min-width:900px){
+  .blk-lp__grade{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:5rem;align-items:center}
+  .blk-lp__foto{margin:0;position:sticky;top:6rem}
+}
+</style>
